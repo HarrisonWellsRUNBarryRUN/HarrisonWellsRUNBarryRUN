@@ -1,51 +1,57 @@
 <div align="center">
 
   <!-- ctOS S.T.A.R. Labs Vector Header -->
-  <a href="https://github.com/Aloostor">
-    <img src="assets/ctos_banner.svg" alt="ctOS v2.0 // S.T.A.R. LABS — ARDA" width="100%" />
+  <a href="https://github.com/HarrisonWellsRUNBarryRUN">
+    <img src="assets/ctos_banner.svg" alt="ctOS v2.0 // S.T.A.R. LABS — ARDA" width="660" />
   </a>
 
-  <br /><br />
+  <br />
 
   <!-- Animated Harrison Wells ctOS Profiler -->
-  <a href="https://github.com/Aloostor">
-    <img src="assets/ctos_harrison_wells.gif" width="190" alt="Dr. Harrison Wells // ctOS Profiler" style="border-radius: 12px; border: 2px solid #00f5d4;" />
+  <a href="https://github.com/HarrisonWellsRUNBarryRUN">
+    <img src="assets/ctos_harrison_wells.gif" width="130" alt="Dr. Harrison Wells // ctOS Profiler" />
   </a>
 
-  <br /><br />
-
   <h1>⚡ ARDA A.</h1>
-  <p><code>@drharrisonwells</code> · <b>S.T.A.R. Labs Distributed Architectures</b></p>
+  <p><code>@drharrisonwells</code> &nbsp;•&nbsp; <b>S.T.A.R. Labs Distributed Architectures</b> &nbsp;•&nbsp; <code>LEVEL 5 [ROOT]</code></p>
 
   <p>
-    <b>Full Stack Developer • ASP.NET Core • ERP Systems • High-Throughput Workflows</b><br />
+    <b>Full Stack Developer • ASP.NET Core • Enterprise ERP Systems • High-Throughput Workflows</b><br />
     Building robust backend services, corporate ERP architectures, and practical web/mobile applications.<br />
     Focused on clean code, database design, and sub-millisecond execution pipelines.
   </p>
 
-  <br />
-
   <!-- Quick Action Badges -->
-  <a href="https://ardaportfoy.onrender.com/">
-    <img src="https://img.shields.io/badge/Live_Portfolio-00f5d4?style=for-the-badge&logo=googlechrome&logoColor=070a0e" alt="Live Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/arda-a-020bb5380/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/Aloostor">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="mailto:ardaagar2035@outlook.com.tr">
-    <img src="https://img.shields.io/badge/Contact_Me-f59e0b?style=for-the-badge&logo=gmail&logoColor=070a0e" alt="Email" />
-  </a>
+  <p>
+    <a href="https://ardaportfoy.onrender.com/">
+      <img src="https://img.shields.io/badge/Live_Portfolio-00f5d4?style=for-the-badge&logo=googlechrome&logoColor=070a0e" alt="Live Portfolio" />
+    </a>
+    <a href="https://www.linkedin.com/in/arda-a-020bb5380/">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://github.com/HarrisonWellsRUNBarryRUN">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    <a href="mailto:ardaagar2035@outlook.com.tr">
+      <img src="https://img.shields.io/badge/Encrypted_Mail-f59e0b?style=for-the-badge&logo=gmail&logoColor=070a0e" alt="Email" />
+    </a>
+  </p>
 
 </div>
 
 <br />
 
----
-
-### 🛰️ ctOS Profiler // Subject: Arda (Dr. Wells Protocol)
+```yaml
+┌──[ S.T.A.R. LABS // ctOS BIOMETRIC TELEMETRY ]──────────────────────────────────┐
+│ SUBJECT           : Arda A. (Dr. Harrison Wells)                                │
+│ IDENTIFIER        : @drharrisonwells // #404-WELLS                              │
+│ CLEARANCE         : LEVEL 5 [DEDSEC_ROOT] // S.T.A.R. Core                      │
+│ SPECIALIZATION    : Enterprise ERP • .NET Core • High-Throughput Distributed    │
+│ TACHYON FREQUENCY : 9.84 GHz [SUB-MILLISECOND EVENT STREAM]                     │
+│ STATUS            : ONLINE [0 Vulnerabilities · High-Load Execution]            │
+│ TIME VAULT STATUS : ACTIVE [GIDEON PROTOCOL ENGAGED]                            │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
 
 > **IDENTITY:** Arda A. (`@drharrisonwells`)  
 > **CLEARANCE:** Level 5 `[DEDSEC_ROOT]`  
@@ -53,6 +59,24 @@
 > **STATUS:** `ONLINE [0 Vulnerabilities · High-Load Execution]`  
 > 
 > *"Just as Dr. Harrison Wells engineered the S.T.A.R. Labs Particle Accelerator and ctOS 2.0 synchronizes city-wide infrastructure — I build high-performance backend pipelines, enterprise ERP workflows, and resilient real-time architectures without single points of failure."*
+
+<details>
+  <summary><b>⚡ [GIDEON TERMINAL] Query Dr. Wells' System Architecture Logs</b></summary>
+  <br />
+
+```yaml
+> GIDEON: "Good evening, Dr. Wells. S.T.A.R. Labs Central Core is operating at peak efficiency."
+> QUERY: Architecture Diagnostics
+> PROTOCOL:
+  ├── Core Engine    : .NET 8 / ASP.NET Core Clean Architecture
+  ├── Messaging      : Distributed Brokers (Apache Kafka, RabbitMQ) & SignalR Duplex
+  ├── Database       : PostgreSQL, MSSQL, Redis In-Memory Sub-Millisecond Caching
+  ├── Client Edge    : Native Android (Kotlin Coroutines / Compose) & Modern React
+  └── Security Matrix: Zero-Trust RBAC & Authoritative Anti-Exploit Validation
+> GIDEON: "Particle Accelerator velocity reached maximum speed force output."
+> WELLS: "Run, Barry, RUN."
+```
+</details>
 
 ---
 
@@ -119,19 +143,49 @@
 
 ---
 
-## 🎯 Primary Directives & Focus Areas
+## 🎯 Primary Directives & Enterprise Focus
 
-* **🏢 Enterprise ERP Systems:** End-to-end multi-tenant business architectures, automated ticketing/helpdesk, inventory tracking, role-based granular access control (RBAC), and transactional integrity.
-* **⚡ High-Performance Backend & Mobile:** Clean Architecture in .NET 8 / ASP.NET Core, asynchronous queuing (Kafka/RabbitMQ), native Android clients with Jetpack Compose & Coroutines, and sub-10ms query optimization.
-* **🛡️ Low-Level Systems & Game Modding:** MTA:SA Lua server-side state machines, anti-exploit verification matrices, real-time client-server network synchronization, and performance profiling.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4 align="center">🏢 Enterprise ERP Systems</h4>
+      <p align="center"><code>STATUS: PRODUCTION</code></p>
+      <ul>
+        <li>Multi-tenant business domain logic &amp; workflows</li>
+        <li>Automated ticketing &amp; inventory tracking</li>
+        <li>Granular Role-Based Access Control (RBAC)</li>
+        <li>ACID compliance &amp; high transactional integrity</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4 align="center">⚡ High-Performance Pipelines</h4>
+      <p align="center"><code>STATUS: SUB-10MS</code></p>
+      <ul>
+        <li>Clean Architecture in .NET 8 / ASP.NET Core</li>
+        <li>Distributed message brokers (Kafka, RabbitMQ)</li>
+        <li>Native Android (Kotlin, Jetpack Compose)</li>
+        <li>Real-time WebSockets &amp; SignalR duplex</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4 align="center">🛡️ Low-Level &amp; Security Systems</h4>
+      <p align="center"><code>STATUS: ZERO-EXPLOIT</code></p>
+      <ul>
+        <li>MTA:SA Lua authoritative server state machines</li>
+        <li>Strict server-side validation &amp; anti-spoofing</li>
+        <li>Real-time client-server network synchronization</li>
+        <li>High-concurrency memory caching &amp; profiling</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 📊 ctOS Network Telemetry & GitHub Highlights
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HarrisonWellsRUNBarryRUN&show_icons=true&theme=tokyonight&bg_color=070a0e&title_color=00f5d4&text_color=94a3b8&icon_color=f59e0b&border_color=1e293b&hide_border=false" alt="HarrisonWellsRUNBarryRUN's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aloostor&layout=compact&theme=tokyonight&bg_color=070a0e&title_color=00f5d4&text_color=94a3b8&border_color=1e293b&hide_border=false" alt="Top Languages" />
+  <img src="https://streak-stats.demolab.com/?user=HarrisonWellsRUNBarryRUN&theme=tokyonight&background=070a0e&stroke=1e293b&ring=00f5d4&fire=f59e0b&currStreakNum=00f5d4" alt="HarrisonWellsRUNBarryRUN Streak Stats" />
 </div>
 
 <br />
@@ -146,5 +200,6 @@
 ---
 
 <div align="center">
-  <sub>ctOS v2.0 • S.T.A.R. Labs Central Core • Designed &amp; Maintained by <b>Arda A.</b></sub>
+  <sub>ctOS v2.0 • S.T.A.R. Labs Central Core • Designed &amp; Maintained by <b>Arda A.</b></sub><br />
+  <sub>⚡ <i>"Run, Barry, RUN. My goals are beyond your understanding."</i> ⚡</sub>
 </div>
