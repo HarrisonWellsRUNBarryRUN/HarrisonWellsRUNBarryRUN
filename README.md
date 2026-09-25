@@ -130,15 +130,15 @@
 ## 📊 ctOS Network Telemetry & GitHub Highlights
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Aloostor&show_icons=true&theme=tokyonight&bg_color=070a0e&title_color=00f5d4&text_color=94a3b8&icon_color=f59e0b&border_color=1e293b&hide_border=false" alt="Aloostor's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=HarrisonWellsRUNBarryRUN&show_icons=true&theme=tokyonight&bg_color=070a0e&title_color=00f5d4&text_color=94a3b8&icon_color=f59e0b&border_color=1e293b&hide_border=false" alt="HarrisonWellsRUNBarryRUN's GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aloostor&layout=compact&theme=tokyonight&bg_color=070a0e&title_color=00f5d4&text_color=94a3b8&border_color=1e293b&hide_border=false" alt="Top Languages" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Aloostor&style=flat-square&color=00f5d4&label=TERMINAL_VIEWS" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/Aloostor?style=flat-square&logo=github&label=OPERATIVES&color=1e293b" alt="GitHub followers" />
+  <img src="https://komarev.com/ghpvc/?username=HarrisonWellsRUNBarryRUN&style=flat-square&color=00f5d4&label=TERMINAL_VIEWS" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/HarrisonWellsRUNBarryRUN?style=flat-square&logo=github&label=OPERATIVES&color=1e293b" alt="GitHub followers" />
 </div>
 
 <br />
