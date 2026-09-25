@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>README Preview - Harrison Wells / ctOS</title>
+  <title>README Preview - Compact S.T.A.R. Labs HUD</title>
   <style>
     :root {
       --bg: #070a0e;
@@ -19,329 +19,246 @@
       background-color: var(--bg);
       color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-      font-size: 15px;
-      line-height: 1.5;
+      font-size: 14.5px;
+      line-height: 1.45;
       margin: 0;
-      padding: 30px 20px;
+      padding: 24px 16px;
     }
     .markdown-body {
-      max-width: 900px;
+      max-width: 860px;
       margin: 0 auto;
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 10px;
-      padding: 32px 40px;
+      padding: 24px 32px;
       box-shadow: 0 0 30px rgba(0, 245, 212, 0.05);
     }
     h1, h2, h3, h4 {
       color: #f0f6fc;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 0.3em;
+      margin-top: 14px;
+      margin-bottom: 8px;
     }
-    h1 { border-bottom: none; font-size: 2em; margin: 10px 0 4px 0; }
-    h2 { font-size: 1.4em; margin-top: 24px; color: var(--accent-cyan); }
-    h3 { font-size: 1.15em; border-bottom: none; margin-top: 18px; color: #38bdf8; }
-    h4 { border-bottom: none; font-size: 0.95em; margin: 8px 0; }
-    p { margin: 8px 0; }
+    h3 { font-size: 1.2em; color: #fff; }
+    h2 { font-size: 1.3em; color: var(--accent-cyan); border-bottom: 1px solid var(--border); padding-bottom: 4px; }
+    p { margin: 6px 0; }
     a { color: var(--link); text-decoration: none; }
-    a:hover { text-decoration: underline; }
     pre {
       background-color: #05070a;
       border: 1px solid #1e293b;
       border-radius: 6px;
-      padding: 14px;
+      padding: 10px 12px;
+      margin: 8px 0;
       overflow-x: auto;
       font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
-      font-size: 12.5px;
+      font-size: 11.5px;
       color: #00f5d4;
-      line-height: 1.45;
+      line-height: 1.4;
     }
     code {
       background-color: rgba(110, 118, 129, 0.2);
-      padding: 0.2em 0.4em;
+      padding: 0.15em 0.35em;
       border-radius: 4px;
       font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
       font-size: 85%;
     }
-    pre code {
-      background-color: transparent;
-      padding: 0;
-    }
-    blockquote {
-      border-left: 3px solid var(--accent-cyan);
-      margin: 14px 0;
-      padding: 8px 16px;
-      color: var(--text-muted);
-      background: rgba(0, 245, 212, 0.03);
-      border-radius: 0 6px 6px 0;
-    }
-    blockquote strong {
-      color: #f0f6fc;
-    }
+    pre code { background-color: transparent; padding: 0; }
     table {
       border-collapse: collapse;
       width: 100%;
-      margin: 16px 0;
+      margin: 10px 0;
     }
     table td {
       border: 1px solid #1e293b;
-      padding: 12px 14px;
+      padding: 10px 12px;
       background: #070a0e;
     }
+    .hud-table td {
+      border: 1px solid #1e293b;
+      background: #080d14;
+    }
     table ul {
-      margin: 6px 0 0 0;
-      padding-left: 18px;
-      font-size: 13px;
+      margin: 4px 0 0 0;
+      padding-left: 16px;
+      font-size: 12.5px;
       color: #94a3b8;
     }
-    table li {
-      margin-bottom: 3px;
-    }
+    table li { margin-bottom: 2px; }
     details {
       background: #05070a;
       border: 1px solid #1e293b;
       border-radius: 6px;
-      padding: 12px 16px;
-      margin: 14px 0;
+      padding: 8px 12px;
+      margin: 10px 0;
     }
-    summary {
-      cursor: pointer;
-      color: var(--accent-cyan);
-    }
-    img {
-      max-width: 100%;
-      vertical-align: middle;
-      pointer-events: none;
-    }
+    summary { cursor: pointer; color: var(--accent-cyan); font-size: 13px; }
+    img { max-width: 100%; vertical-align: middle; }
+    .badge-row { margin: 6px 0; }
+    .badge-row img { margin: 2px; }
   </style>
 </head>
 <body>
 
 <div class="markdown-body">
 
-<div align="center">
-
-  <!-- ctOS S.T.A.R. Labs Vector Header with Matrix Rain -->
-  <a href="https://github.com/HarrisonWellsRUNBarryRUN" style="pointer-events: auto;">
-    <img src="assets/ctos_banner.svg" alt="ctOS v2.0 // S.T.A.R. LABS — ARDA" width="660" />
-  </a>
-
-  <br />
-
-  <!-- Animated Harrison Wells ctOS Profiler -->
-  <a href="https://github.com/HarrisonWellsRUNBarryRUN" style="pointer-events: auto;">
-    <img src="assets/ctos_harrison_wells.gif" width="130" alt="Dr. Harrison Wells // ctOS Profiler" />
-  </a>
-
-  <h1>⚡ ARDA A.</h1>
-  <p><code>@drharrisonwells</code> &nbsp;•&nbsp; <b>S.T.A.R. Labs Distributed Architectures</b> &nbsp;•&nbsp; <code>LEVEL 5 [ROOT]</code></p>
-
-  <p>
-    <b>Full Stack Developer • ASP.NET Core • Enterprise ERP Systems • High-Throughput Workflows</b><br />
-    Building robust backend services, corporate ERP architectures, and practical web/mobile applications.<br />
-    Focused on clean code, database design, and sub-millisecond execution pipelines.
-  </p>
-
-  <!-- Quick Action Badges -->
-  <p style="pointer-events: auto;">
-    <a href="https://ardaportfoy.onrender.com/">
-      <img src="https://img.shields.io/badge/Live_Portfolio-00f5d4?style=for-the-badge&logo=googlechrome&logoColor=070a0e" alt="Live Portfolio" />
-    </a>
-    <a href="https://www.linkedin.com/in/arda-a-020bb5380/">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
+  <!-- Top Banner with Matrix Rain -->
+  <p align="center">
     <a href="https://github.com/HarrisonWellsRUNBarryRUN">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-    <a href="mailto:ardaagar2035@outlook.com.tr">
-      <img src="https://img.shields.io/badge/Encrypted_Mail-f59e0b?style=for-the-badge&logo=gmail&logoColor=070a0e" alt="Email" />
+      <img src="assets/ctos_banner.svg" alt="ctOS v2.0 // S.T.A.R. LABS — ARDA" width="100%" />
     </a>
   </p>
 
-</div>
+  <!-- Side-by-Side S.T.A.R. Labs HUD -->
+  <table class="hud-table" width="100%">
+    <tr>
+      <td width="26%" align="center" valign="middle">
+        <a href="https://github.com/HarrisonWellsRUNBarryRUN">
+          <img src="assets/ctos_harrison_wells.gif" width="145" alt="Dr. Harrison Wells // ctOS Profiler" />
+        </a>
+        <br />
+        <small><code>MATCH: 99.8%</code></small><br />
+        <small style="color: #00f5d4; font-weight: 700;">DR. WELLS PROTOCOL</small><br />
+        <small style="color: #f59e0b;">LEVEL 5 [ROOT]</small>
+      </td>
+      <td width="74%" valign="top">
+        <h3 style="margin-top: 0;">⚡ ARDA A. &nbsp;<code>@drharrisonwells</code></h3>
+        
+        <!-- Live Typing Animation -->
+        <div>
+          <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=16&pause=1000&color=00F5D4&center=false&vCenter=true&width=480&height=24&lines=Full+Stack+Developer+%26+ERP+Architect;High-Throughput+.NET+Core+%26+Clean+Architecture;Native+Android+Clients+%26+Distributed+Pipelines;Run%2C+Barry%2C+RUN.+My+goals+are+beyond..." alt="Typing SVG" />
+        </div>
 
-<br />
+        <pre><code>┌──[ ctOS // S.T.A.R. LABS CORE TELEMETRY ]──────────────────────────┐
+│ AFFILIATION : S.T.A.R. Labs Distributed Architectures              │
+│ SPECIALTY   : Enterprise ERP • High-Throughput .NET Core Pipelines │
+│ FREQUENCY   : 9.84 GHz [SUB-MILLISECOND EVENT STREAM]              │
+│ INTEGRITY   : 0 Vulnerabilities Detected • 99.98% System Uptime    │
+└────────────────────────────────────────────────────────────────────┘</code></pre>
 
-<p align="center">
-  <img src="assets/matrix_divider.svg" width="100%" alt="ctOS Matrix Stream" />
-</p>
+        <p style="margin-top: 8px;">
+          <a href="https://ardaportfoy.onrender.com/"><img src="https://img.shields.io/badge/Live_Portfolio-00f5d4?style=for-the-badge&logo=googlechrome&logoColor=070a0e" height="26" /></a>
+          <a href="https://www.linkedin.com/in/arda-a-020bb5380/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="26" /></a>
+          <a href="https://github.com/HarrisonWellsRUNBarryRUN"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="26" /></a>
+          <a href="mailto:ardaagar2035@outlook.com.tr"><img src="https://img.shields.io/badge/Contact_Me-f59e0b?style=for-the-badge&logo=gmail&logoColor=070a0e" height="26" /></a>
+        </p>
+      </td>
+    </tr>
+  </table>
 
-<pre><code>┌──[ S.T.A.R. LABS // ctOS BIOMETRIC TELEMETRY ]──────────────────────────────────┐
-│ SUBJECT           : Arda A. (Dr. Harrison Wells)                                │
-│ IDENTIFIER        : @drharrisonwells // #404-WELLS                              │
-│ CLEARANCE         : LEVEL 5 [DEDSEC_ROOT] // S.T.A.R. Core                      │
-│ SPECIALIZATION    : Enterprise ERP • .NET Core • High-Throughput Distributed    │
-│ TACHYON FREQUENCY : 9.84 GHz [SUB-MILLISECOND EVENT STREAM]                     │
-│ STATUS            : ONLINE [0 Vulnerabilities · High-Load Execution]            │
-│ TIME VAULT STATUS : ACTIVE [GIDEON PROTOCOL ENGAGED]                            │
-└─────────────────────────────────────────────────────────────────────────────────┘</code></pre>
+  <!-- Matrix Divider -->
+  <p align="center">
+    <img src="assets/matrix_divider.svg" width="100%" alt="ctOS Matrix Stream" />
+  </p>
 
-<blockquote>
-  <strong>IDENTITY:</strong> Arda A. (<code>@drharrisonwells</code>)<br />
-  <strong>CLEARANCE:</strong> Level 5 <code>[DEDSEC_ROOT]</code><br />
-  <strong>SPECIALIZATION:</strong> Enterprise ERP • .NET Core • High-Throughput Distributed Backends • Native Android<br />
-  <strong>STATUS:</strong> <code>ONLINE [0 Vulnerabilities · High-Load Execution]</code><br /><br />
-  <em>"Just as Dr. Harrison Wells engineered the S.T.A.R. Labs Particle Accelerator and ctOS 2.0 synchronizes city-wide infrastructure — I build high-performance backend pipelines, enterprise ERP workflows, and resilient real-time architectures without single points of failure."</em>
-</blockquote>
+  <!-- Compact Tech Stack Matrix -->
+  <h2>⚡ Tech Stack & Core Runtime</h2>
 
-<details>
-  <summary><b>⚡ [GIDEON TERMINAL] Query Dr. Wells' System Architecture Logs</b></summary>
+  <div class="badge-row">
+    <b>🔹 Backend:</b><br />
+    <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" />
+    <img src="https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+    <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+    <img src="https://img.shields.io/badge/SignalR-00f5d4?style=flat-square&logo=dotnet&logoColor=070a0e" />
+    <img src="https://img.shields.io/badge/Dapper-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+    <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
+    <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+    <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+    <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+    <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
+    <img src="https://img.shields.io/badge/Lua-000080?style=flat-square&logo=lua&logoColor=white" />
+  </div>
+
+  <div class="badge-row">
+    <b>🔹 Protocols & Messaging:</b><br />
+    <img src="https://img.shields.io/badge/REST_APIs-0055E6?style=flat-square&logo=fastapi&logoColor=white" />
+    <img src="https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=grpc&logoColor=white" />
+    <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
+    <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" />
+    <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" />
+    <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
+    <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+    <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
+  </div>
+
+  <div class="badge-row">
+    <b>🔹 Mobile, Frontend & Databases:</b><br />
+    <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" />
+    <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+    <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+    <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+    <img src="https://img.shields.io/badge/MSSQL-CC292B?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
+    <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  </div>
+
+  <!-- Matrix Divider -->
+  <p align="center">
+    <img src="assets/matrix_divider.svg" width="100%" alt="ctOS Matrix Stream" />
+  </p>
+
+  <!-- Primary Directives & Enterprise Focus -->
+  <h2>🎯 Primary Directives & Enterprise Focus</h2>
+
+  <table>
+    <tr>
+      <td width="33%" valign="top">
+        <h4 align="center">🏢 Enterprise ERP Systems</h4>
+        <p align="center"><code>STATUS: PRODUCTION</code></p>
+        <ul>
+          <li>Multi-tenant business domain logic &amp; workflows</li>
+          <li>Automated ticketing &amp; inventory tracking</li>
+          <li>Granular Role-Based Access Control (RBAC)</li>
+          <li>ACID compliance &amp; high transactional integrity</li>
+        </ul>
+      </td>
+      <td width="33%" valign="top">
+        <h4 align="center">⚡ High-Performance Pipelines</h4>
+        <p align="center"><code>STATUS: SUB-10MS</code></p>
+        <ul>
+          <li>Clean Architecture in .NET 8 / ASP.NET Core</li>
+          <li>Distributed message brokers (Kafka, RabbitMQ)</li>
+          <li>Native Android (Kotlin, Jetpack Compose)</li>
+          <li>Real-time WebSockets &amp; SignalR duplex</li>
+        </ul>
+      </td>
+      <td width="33%" valign="top">
+        <h4 align="center">🛡️ Low-Level &amp; Security Systems</h4>
+        <p align="center"><code>STATUS: ZERO-EXPLOIT</code></p>
+        <ul>
+          <li>MTA:SA Lua authoritative server state machines</li>
+          <li>Strict server-side validation &amp; anti-spoofing</li>
+          <li>Real-time client-server network synchronization</li>
+          <li>High-concurrency memory caching &amp; profiling</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Matrix Divider -->
+  <p align="center">
+    <img src="assets/matrix_divider.svg" width="100%" alt="ctOS Matrix Stream" />
+  </p>
+
+  <!-- Telemetry & Stats -->
+  <div align="center">
+    <img src="https://streak-stats.demolab.com/?user=HarrisonWellsRUNBarryRUN&theme=tokyonight&background=070a0e&stroke=1e293b&ring=00f5d4&fire=f59e0b&currStreakNum=00f5d4" alt="Streak Stats" />
+    <br /><br />
+    <img src="https://komarev.com/ghpvc/?username=HarrisonWellsRUNBarryRUN&style=flat-square&color=00f5d4&label=TERMINAL_VIEWS" alt="Views" />
+    <img src="https://img.shields.io/github/followers/HarrisonWellsRUNBarryRUN?style=flat-square&logo=github&label=OPERATIVES&color=1e293b" alt="Followers" />
+  </div>
+
   <br />
-  <pre><code>&gt; GIDEON: "Good evening, Dr. Wells. S.T.A.R. Labs Central Core is operating at peak efficiency."
-&gt; QUERY: Architecture Diagnostics
-&gt; PROTOCOL:
-  ├── Core Engine    : .NET 8 / ASP.NET Core Clean Architecture
-  ├── Messaging      : Distributed Brokers (Apache Kafka, RabbitMQ) & SignalR Duplex
-  ├── Database       : PostgreSQL, MSSQL, Redis In-Memory Sub-Millisecond Caching
-  ├── Client Edge    : Native Android (Kotlin Coroutines / Compose) & Modern React
-  └── Security Matrix: Zero-Trust RBAC & Authoritative Anti-Exploit Validation
-&gt; GIDEON: "Particle Accelerator velocity reached maximum speed force output."
-&gt; WELLS: "Run, Barry, RUN."</code></pre>
-</details>
 
-<p align="center">
-  <img src="assets/matrix_divider.svg" width="100%" alt="ctOS Matrix Stream" />
-</p>
-
-<h2>⚡ Tech Stack & Core Runtime</h2>
-
-<h3>🔹 Backend & High-Throughput Services</h3>
-<p>
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET Core" />
-  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
-  <img src="https://img.shields.io/badge/SignalR-00f5d4?style=for-the-badge&logo=dotnet&logoColor=070a0e" alt="SignalR" />
-  <img src="https://img.shields.io/badge/Dapper-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Dapper" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
-  <img src="https://img.shields.io/badge/Lua-000080?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
-</p>
-
-<h3>🔹 Network Protocols, Gateways & Messaging</h3>
-<p>
-  <img src="https://img.shields.io/badge/REST_APIs-0055E6?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
-  <img src="https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=grpc&logoColor=white" alt="gRPC" />
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL" />
-  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="WebSockets" />
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
-  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Apache Kafka" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
-  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
-  <img src="https://img.shields.io/badge/OAuth2-EB5424?style=for-the-badge&logo=auth0&logoColor=white" alt="OAuth2" />
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger" />
-</p>
-
-<h3>🔹 Mobile Client & Modern Frontend</h3>
-<p>
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-</p>
-
-<h3>🔹 Databases & In-Memory Engines</h3>
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MSSQL-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="MSSQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/Entity_Framework_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="EF Core" />
-</p>
-
-<h3>🔹 Tools, Containers & Environment</h3>
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" alt="Visual Studio" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
-</p>
-
-<p align="center">
-  <img src="assets/matrix_divider.svg" width="100%" alt="ctOS Matrix Stream" />
-</p>
-
-<h2>🎯 Primary Directives & Enterprise Focus</h2>
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h4 align="center">🏢 Enterprise ERP Systems</h4>
-      <p align="center"><code>STATUS: PRODUCTION</code></p>
-      <ul>
-        <li>Multi-tenant business domain logic &amp; workflows</li>
-        <li>Automated ticketing &amp; inventory tracking</li>
-        <li>Granular Role-Based Access Control (RBAC)</li>
-        <li>ACID compliance &amp; high transactional integrity</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h4 align="center">⚡ High-Performance Pipelines</h4>
-      <p align="center"><code>STATUS: SUB-10MS</code></p>
-      <ul>
-        <li>Clean Architecture in .NET 8 / ASP.NET Core</li>
-        <li>Distributed message brokers (Kafka, RabbitMQ)</li>
-        <li>Native Android (Kotlin, Jetpack Compose)</li>
-        <li>Real-time WebSockets &amp; SignalR duplex</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h4 align="center">🛡️ Low-Level &amp; Security Systems</h4>
-      <p align="center"><code>STATUS: ZERO-EXPLOIT</code></p>
-      <ul>
-        <li>MTA:SA Lua authoritative server state machines</li>
-        <li>Strict server-side validation &amp; anti-spoofing</li>
-        <li>Real-time client-server network synchronization</li>
-        <li>High-concurrency memory caching &amp; profiling</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="assets/matrix_divider.svg" width="100%" alt="ctOS Matrix Stream" />
-</p>
-
-<h2>📊 ctOS Network Telemetry & GitHub Highlights</h2>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=HarrisonWellsRUNBarryRUN&theme=tokyonight&background=070a0e&stroke=1e293b&ring=00f5d4&fire=f59e0b&currStreakNum=00f5d4" alt="HarrisonWellsRUNBarryRUN Streak Stats" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=HarrisonWellsRUNBarryRUN&style=flat-square&color=00f5d4&label=TERMINAL_VIEWS" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/HarrisonWellsRUNBarryRUN?style=flat-square&logo=github&label=OPERATIVES&color=1e293b" alt="GitHub followers" />
-</div>
-
-<br />
-
-<p align="center">
-  <img src="assets/matrix_divider.svg" width="100%" alt="ctOS Matrix Stream" />
-</p>
-
-<div align="center">
-  <sub>ctOS v2.0 • S.T.A.R. Labs Central Core • Designed &amp; Maintained by <b>Arda A.</b></sub><br />
-  <sub>⚡ <i>"Run, Barry, RUN. My goals are beyond your understanding."</i> ⚡</sub>
-</div>
+  <div align="center">
+    <sub>ctOS v2.0 • S.T.A.R. Labs Central Core • Designed &amp; Maintained by <b>Arda A.</b></sub><br />
+    <sub>⚡ <i>"Run, Barry, RUN. My goals are beyond your understanding."</i> ⚡</sub>
+  </div>
 
 </div>
 
