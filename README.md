@@ -1,25 +1,42 @@
 <div align="center">
 
-  <!-- ctOS S.T.A.R. Labs Vector Banner -->
+  <!-- ctOS S.T.A.R. Labs Vector Header -->
   <a href="https://github.com/Aloostor">
-    <img src="./assets/ctos_banner.svg" alt="ctOS v2.0 // S.T.A.R. LABS — ARDA" width="100%" />
+    <img src="assets/ctos_banner.svg" alt="ctOS v2.0 // S.T.A.R. LABS — ARDA" width="100%" />
   </a>
 
-  <br />
+  <br /><br />
+
+  <!-- Animated Harrison Wells ctOS Profiler -->
+  <a href="https://github.com/Aloostor">
+    <img src="assets/ctos_harrison_wells.gif" width="190" alt="Dr. Harrison Wells // ctOS Profiler" style="border-radius: 12px; border: 2px solid #00f5d4;" />
+  </a>
+
+  <br /><br />
+
+  <h1>⚡ ARDA A.</h1>
+  <p><code>@drharrisonwells</code> · <b>S.T.A.R. Labs Distributed Architectures</b></p>
+
+  <p>
+    <b>Full Stack Developer • ASP.NET Core • ERP Systems • High-Throughput Workflows</b><br />
+    Building robust backend services, corporate ERP architectures, and practical web/mobile applications.<br />
+    Focused on clean code, database design, and sub-millisecond execution pipelines.
+  </p>
+
   <br />
 
-  <!-- Interactive Terminal Badges -->
+  <!-- Quick Action Badges -->
   <a href="https://github.com/Aloostor/ArdaPortfoy">
-    <img src="https://img.shields.io/badge/LIVE_PORTFOLIO-00f5d4?style=for-the-badge&logo=googlechrome&logoColor=070a0e" alt="Live Portfolio" />
+    <img src="https://img.shields.io/badge/Live_Portfolio-00f5d4?style=for-the-badge&logo=googlechrome&logoColor=070a0e" alt="Live Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/arda-a-020bb5380/">
-    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://github.com/Aloostor">
-    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="mailto:ardaagar2035@outlook.com.tr">
-    <img src="https://img.shields.io/badge/ENCRYPTED_MAIL-f59e0b?style=for-the-badge&logo=gmail&logoColor=070a0e" alt="Email" />
+    <img src="https://img.shields.io/badge/Contact_Me-f59e0b?style=for-the-badge&logo=gmail&logoColor=070a0e" alt="Email" />
   </a>
 
 </div>
@@ -28,38 +45,20 @@
 
 ---
 
-<!-- ctOS Biometric Profiler & Narrative -->
-<table align="center" width="100%" style="border: none; background: transparent;">
-  <tr>
-    <td width="38%" align="center" style="border: none; vertical-align: middle;">
-      <!-- Harrison Wells ctOS Biometric Animation -->
-      <img src="./assets/ctos_harrison_wells.gif" width="320" alt="Dr. Harrison Wells // ctOS Facial Recognition Target" style="border-radius: 8px; border: 1.5px solid #00f5d4; box-shadow: 0 0 20px rgba(0, 245, 212, 0.25);" />
-    </td>
-    <td width="62%" style="border: none; vertical-align: middle; padding-left: 20px;">
+### 🛰️ ctOS Profiler // Subject: Arda (Dr. Wells Protocol)
 
-### ⚡ PROFILER RECORD: ARDA // DR. WELLS
-
-```yaml
-SUBJECT: Arda A.
-CODENAME: Dr. Harrison Wells
-AFFILIATION: S.T.A.R. Labs // ctOS Distributed Architectures
-CLEARANCE: LEVEL 5 [DEDSEC_ROOT]
-SPECIALIZATION: Enterprise ERP · .NET Core · High-Throughput Backends
-MOTTO: "My systems are beyond ordinary understanding."
-STATUS: ONLINE [0 Vulnerabilities · Sub-millisecond Execution]
-```
-
-> *"Just as Dr. Harrison Wells engineered the S.T.A.R. Labs Particle Accelerator and ctOS 2.0 synchronizes an entire metropolis—I design bulletproof backend pipelines, corporate ERP workflows, and ultra-responsive native systems without single points of failure."*
-
-   </td>
-  </tr>
-</table>
+> **IDENTITY:** Arda A. (`@drharrisonwells`)  
+> **CLEARANCE:** Level 5 `[DEDSEC_ROOT]`  
+> **SPECIALIZATION:** Enterprise ERP • .NET Core • High-Throughput Distributed Backends • Native Android  
+> **STATUS:** `ONLINE [0 Vulnerabilities · High-Load Execution]`  
+> 
+> *"Just as Dr. Harrison Wells engineered the S.T.A.R. Labs Particle Accelerator and ctOS 2.0 synchronizes city-wide infrastructure — I build high-performance backend pipelines, enterprise ERP workflows, and resilient real-time architectures without single points of failure."*
 
 ---
 
-## 🛰️ System Architecture & Tech Stack
+## ⚡ Tech Stack & Core Runtime
 
-### ⚡ Core Backend & Distributed Pipelines
+### 🔹 Backend & High-Throughput Services
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
@@ -78,7 +77,7 @@ STATUS: ONLINE [0 Vulnerabilities · Sub-millisecond Execution]
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![Lua](https://img.shields.io/badge/Lua-000080?style=for-the-badge&logo=lua&logoColor=white)
 
-### 📡 Network Protocols, Messaging & Gateways
+### 🔹 Network Protocols, Gateways & Messaging
 ![REST APIs](https://img.shields.io/badge/REST_APIs-0055E6?style=for-the-badge&logo=fastapi&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=grpc&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
@@ -90,7 +89,7 @@ STATUS: ONLINE [0 Vulnerabilities · Sub-millisecond Execution]
 ![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=for-the-badge&logo=auth0&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
-### 📱 Native Mobile & Modern Web
+### 🔹 Mobile Client & Modern Frontend
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -101,7 +100,7 @@ STATUS: ONLINE [0 Vulnerabilities · Sub-millisecond Execution]
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-### 🗄️ Storage Engines & High-Speed Cache
+### 🔹 Databases & In-Memory Engines
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MSSQL](https://img.shields.io/badge/MSSQL-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -110,7 +109,7 @@ STATUS: ONLINE [0 Vulnerabilities · Sub-millisecond Execution]
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![EF Core](https://img.shields.io/badge/Entity_Framework_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
-### 🛠️ Infrastructure, Containers & Environment
+### 🔹 Tools, Containers & Environment
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -138,7 +137,7 @@ STATUS: ONLINE [0 Vulnerabilities · Sub-millisecond Execution]
 <br />
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Aloostor&style=flat-square&color=00f5d4&label=ctOS_TERMINAL_VIEWS" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Aloostor&style=flat-square&color=00f5d4&label=TERMINAL_VIEWS" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/Aloostor?style=flat-square&logo=github&label=OPERATIVES&color=1e293b" alt="GitHub followers" />
 </div>
 
