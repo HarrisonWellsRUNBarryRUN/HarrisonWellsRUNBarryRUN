@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 36" width="100%" height="36" style="background: transparent;">
+  <defs>
+    <!-- Matrix Rain Gradient Cyan/Green -->
+    <linearGradient id="matrixDropCyan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0" />
+      <stop offset="70%" stop-color="#00f5d4" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Matrix Rain Gradient Amber -->
+    <linearGradient id="matrixDropAmber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0" />
+      <stop offset="70%" stop-color="#f59e0b" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.85" />
+    </linearGradient>
+
+    <filter id="matrixGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes rainFall {
+      0% { transform: translateY(-40px); opacity: 0; }
+      20% { opacity: 0.8; }
+      80% { opacity: 0.8; }
+      100% { transform: translateY(40px); opacity: 0; }
+    }
+    @keyframes beamSweep {
+      0% { transform: translateX(-300px); }
+      100% { transform: translateX(1100px); }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.9; }
+    }
+
+    .rain-c1 { animation: rainFall 1.8s infinite linear; }
+    .rain-c2 { animation: rainFall 2.4s infinite linear 0.4s; }
+    .rain-c3 { animation: rainFall 1.5s infinite linear 0.8s; }
+    .rain-c4 { animation: rainFall 2.1s infinite linear 1.2s; }
+    .rain-c5 { animation: rainFall 1.9s infinite linear 0.6s; }
+    .rain-c6 { animation: rainFall 2.6s infinite linear 1.5s; }
+    
+    .char {
+      font-family: 'JetBrains Mono', Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      fill: #00f5d4;
+    }
+    .char-amber {
+      font-family: 'JetBrains Mono', Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      fill: #f59e0b;
+    }
+  </style>
+
+  <!-- Horizontal Baseline Circuit Line -->
+  <line x1="20" y1="18" x2="880" y2="18" stroke="#1e293b" stroke-width="1" />
+  <line x1="120" y1="18" x2="780" y2="18" stroke="#00f5d4" stroke-opacity="0.2" stroke-width="1" />
+
+  <!-- Matrix Vertical Streams -->
+  <!-- Stream 1 -->
+  <g class="rain-c1" transform="translate(60, 0)">
+    <line x1="0" y1="0" x2="0" y2="28" stroke="url(#matrixDropCyan)" stroke-width="1.5" />
+    <circle cx="0" cy="28" r="1.5" fill="#ffffff" filter="url(#matrixGlow)" />
+    <text x="-3" y="10" class="char">1</text>
+    <text x="-3" y="20" class="char">0</text>
+  </g>
+
+  <!-- Stream 2 -->
+  <g class="rain-c2" transform="translate(130, 0)">
+    <line x1="0" y1="0" x2="0" y2="32" stroke="url(#matrixDropCyan)" stroke-width="1.5" />
+    <circle cx="0" cy="32" r="1.5" fill="#00f5d4" />
+    <text x="-3" y="12" class="char">W</text>
+    <text x="-3" y="22" class="char">E</text>
+  </g>
+
+  <!-- Stream 3 (Amber) -->
+  <g class="rain-c3" transform="translate(210, 0)">
+    <line x1="0" y1="0" x2="0" y2="24" stroke="url(#matrixDropAmber)" stroke-width="1.5" />
+    <circle cx="0" cy="24" r="1.5" fill="#f59e0b" filter="url(#matrixGlow)" />
+    <text x="-3" y="10" class="char-amber">⚡</text>
+  </g>
+
+  <!-- Stream 4 -->
+  <g class="rain-c4" transform="translate(290, 0)">
+    <line x1="0" y1="0" x2="0" y2="30" stroke="url(#matrixDropCyan)" stroke-width="1.5" />
+    <circle cx="0" cy="30" r="1.5" fill="#00f5d4" />
+    <text x="-3" y="12" class="char">0</text>
+    <text x="-3" y="22" class="char">1</text>
+  </g>
+
+  <!-- Stream 5 -->
+  <g class="rain-c5" transform="translate(370, 0)">
+    <line x1="0" y1="0" x2="0" y2="26" stroke="url(#matrixDropCyan)" stroke-width="1.5" />
+    <circle cx="0" cy="26" r="1.5" fill="#ffffff" />
+    <text x="-3" y="11" class="char">4</text>
+    <text x="-3" y="21" class="char">0</text>
+  </g>
+
+  <!-- Center Hub Marker -->
+  <g transform="translate(450, 18)">
+    <!-- Outer diamond -->
+    <polygon points="0,-7 8,0 0,7 -8,0" fill="#070a0e" stroke="#00f5d4" stroke-width="1.2" />
+    <circle cx="0" cy="0" r="2.5" fill="#00f5d4" filter="url(#matrixGlow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Stream 6 -->
+  <g class="rain-c2" transform="translate(530, 0)">
+    <line x1="0" y1="0" x2="0" y2="28" stroke="url(#matrixDropCyan)" stroke-width="1.5" />
+    <circle cx="0" cy="28" r="1.5" fill="#00f5d4" />
+    <text x="-3" y="10" class="char">N</text>
+    <text x="-3" y="20" class="char">E</text>
+  </g>
+
+  <!-- Stream 7 (Amber) -->
+  <g class="rain-c6" transform="translate(610, 0)">
+    <line x1="0" y1="0" x2="0" y2="34" stroke="url(#matrixDropAmber)" stroke-width="1.5" />
+    <circle cx="0" cy="34" r="1.5" fill="#f59e0b" filter="url(#matrixGlow)" />
+    <text x="-3" y="12" class="char-amber">R</text>
+    <text x="-3" y="22" class="char-amber">U</text>
+  </g>
+
+  <!-- Stream 8 -->
+  <g class="rain-c3" transform="translate(690, 0)">
+    <line x1="0" y1="0" x2="0" y2="25" stroke="url(#matrixDropCyan)" stroke-width="1.5" />
+    <circle cx="0" cy="25" r="1.5" fill="#ffffff" />
+    <text x="-3" y="10" class="char">1</text>
+    <text x="-3" y="20" class="char">1</text>
+  </g>
+
+  <!-- Stream 9 -->
+  <g class="rain-c5" transform="translate(770, 0)">
+    <line x1="0" y1="0" x2="0" y2="30" stroke="url(#matrixDropCyan)" stroke-width="1.5" />
+    <circle cx="0" cy="30" r="1.5" fill="#00f5d4" />
+    <text x="-3" y="12" class="char">S</text>
+    <text x="-3" y="22" class="char">T</text>
+  </g>
+
+  <!-- Stream 10 -->
+  <g class="rain-c1" transform="translate(840, 0)">
+    <line x1="0" y1="0" x2="0" y2="28" stroke="url(#matrixDropCyan)" stroke-width="1.5" />
+    <circle cx="0" cy="28" r="1.5" fill="#00f5d4" />
+    <text x="-3" y="10" class="char">0</text>
+    <text x="-3" y="20" class="char">1</text>
+  </g>
+
+  <!-- Scanning Light Beam on the Center Line -->
+  <g style="animation: beamSweep 4s infinite linear;">
+    <line x1="0" y1="18" x2="160" y2="18" stroke="url(#matrixDropCyan)" stroke-width="2" />
+  </g>
+
+  <!-- Left / Right Endpoints -->
+  <circle cx="20" cy="18" r="2" fill="#00f5d4" opacity="0.6" />
+  <circle cx="880" cy="18" r="2" fill="#00f5d4" opacity="0.6" />
+</svg>
