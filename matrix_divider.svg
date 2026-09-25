@@ -14,6 +14,13 @@
       <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.85" />
     </linearGradient>
 
+    <!-- Reverse Flash Negative Speedforce Red -->
+    <linearGradient id="matrixDropRed" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff0033" stop-opacity="0" />
+      <stop offset="70%" stop-color="#ef4444" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#ff0033" stop-opacity="0.95" />
+    </linearGradient>
+
     <filter id="matrixGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="2" result="blur" />
       <feMerge>
@@ -58,6 +65,12 @@
       font-weight: 700;
       fill: #f59e0b;
     }
+    .char-red {
+      font-family: 'JetBrains Mono', Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      fill: #ff0033;
+    }
   </style>
 
   <!-- Horizontal Baseline Circuit Line -->
@@ -81,11 +94,11 @@
     <text x="-3" y="22" class="char">E</text>
   </g>
 
-  <!-- Stream 3 (Amber) -->
+  <!-- Stream 3 (Reverse Flash Negative Speedforce Red) -->
   <g class="rain-c3" transform="translate(210, 0)">
-    <line x1="0" y1="0" x2="0" y2="24" stroke="url(#matrixDropAmber)" stroke-width="1.5" />
-    <circle cx="0" cy="24" r="1.5" fill="#f59e0b" filter="url(#matrixGlow)" />
-    <text x="-3" y="10" class="char-amber">⚡</text>
+    <line x1="0" y1="0" x2="0" y2="24" stroke="url(#matrixDropRed)" stroke-width="1.8" />
+    <circle cx="0" cy="24" r="2" fill="#ff0033" filter="url(#matrixGlow)" />
+    <text x="-3" y="10" class="char-red">⚡</text>
   </g>
 
   <!-- Stream 4 -->
@@ -104,12 +117,12 @@
     <text x="-3" y="21" class="char">0</text>
   </g>
 
-  <!-- Center Hub Marker -->
+  <!-- Center Hub Marker with Reverse Flash Core -->
   <g transform="translate(450, 18)">
     <!-- Outer diamond -->
-    <polygon points="0,-7 8,0 0,7 -8,0" fill="#070a0e" stroke="#00f5d4" stroke-width="1.2" />
-    <circle cx="0" cy="0" r="2.5" fill="#00f5d4" filter="url(#matrixGlow)">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite" />
+    <polygon points="0,-7 8,0 0,7 -8,0" fill="#070a0e" stroke="#ff0033" stroke-width="1.2" />
+    <circle cx="0" cy="0" r="2.5" fill="#ff0033" filter="url(#matrixGlow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.2s" repeatCount="indefinite" />
     </circle>
   </g>
 
@@ -121,12 +134,12 @@
     <text x="-3" y="20" class="char">E</text>
   </g>
 
-  <!-- Stream 7 (Amber) -->
+  <!-- Stream 7 (Reverse Flash Negative Speedforce Red) -->
   <g class="rain-c6" transform="translate(610, 0)">
-    <line x1="0" y1="0" x2="0" y2="34" stroke="url(#matrixDropAmber)" stroke-width="1.5" />
-    <circle cx="0" cy="34" r="1.5" fill="#f59e0b" filter="url(#matrixGlow)" />
-    <text x="-3" y="12" class="char-amber">R</text>
-    <text x="-3" y="22" class="char-amber">U</text>
+    <line x1="0" y1="0" x2="0" y2="34" stroke="url(#matrixDropRed)" stroke-width="1.8" />
+    <circle cx="0" cy="34" r="2" fill="#ff0033" filter="url(#matrixGlow)" />
+    <text x="-3" y="12" class="char-red">R</text>
+    <text x="-3" y="22" class="char-red">U</text>
   </g>
 
   <!-- Stream 8 -->
