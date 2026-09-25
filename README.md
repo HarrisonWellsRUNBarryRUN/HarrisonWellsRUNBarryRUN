@@ -5,7 +5,6 @@
 Building robust backend services, corporate ERP architectures, and practical web/mobile applications. Focused on clean code, database design, and high-performance workflows.
 
 <div align="center">
-  <a href="https://ardaportfoy.onrender.com/">
     <img src="https://img.shields.io/badge/Live_Portfolio-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/arda-a-020bb5380/">
