@@ -14,8 +14,8 @@
 
   <br /><br />
 
-  <!-- Live Typing Terminal Animation -->
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=16&pause=1000&color=00F5D4&center=true&vCenter=true&width=500&height=28&lines=Full+Stack+Developer+%26+ERP+Architect;High-Throughput+.NET+Core+%26+Clean+Architecture;Native+Android+Clients+%26+Distributed+Pipelines;Run%2C+Barry%2C+RUN.+My+goals+are+beyond..." alt="Typing SVG" />
+  <!-- Live Typing Terminal Animation (Reverse Flash Crimson Red) -->
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=16&pause=1000&color=FF0033&center=true&vCenter=true&width=560&height=28&lines=Full+Stack+Developer+%26+ERP+Architect;High-Throughput+.NET+Core+%26+Clean+Architecture;REVERSE+FLASH+PROTOCOL%3A+Negative+Speed+Force;Run%2C+Barry%2C+RUN.+My+goals+are+beyond..." alt="Typing SVG" />
 
   <br />
 
@@ -31,7 +31,7 @@
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="28" alt="GitHub" />
     </a>
     <a href="mailto:ardaagar2035@outlook.com.tr">
-      <img src="https://img.shields.io/badge/Encrypted_Mail-f59e0b?style=for-the-badge&logo=gmail&logoColor=070a0e" height="28" alt="Email" />
+      <img src="https://img.shields.io/badge/Encrypted_Mail-FF0033?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email" />
     </a>
   </p>
 
@@ -42,8 +42,9 @@
 </p>
 
 ```yaml
-┌──[ S.T.A.R. LABS // ctOS BIOMETRIC TELEMETRY ]─────────────────────────────────────────┐
+┌──[ S.T.A.R. LABS // REVERSE FLASH PROTOCOL ]───────────────────────────────────────────┐
 │ SUBJECT    : Arda A. (@drharrisonwells) • LEVEL 5 [ROOT] • 0 Vulnerabilities Detected  │
+│ IDENTITY   : Dr. Harrison Wells // Eobard Thawne • Negative Speed Force Execution      │
 │ DOMAIN     : Enterprise ERP • ASP.NET Core • High-Throughput • Sub-Millisecond Pipelines│
 │ TACHYON    : 9.84 GHz Event Stream • "Run, Barry, RUN. My goals are beyond ordinary."  │
 └────────────────────────────────────────────────────────────────────────────────────────┘
@@ -165,9 +166,9 @@
 ## 📊 ctOS Network Telemetry & GitHub Highlights
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=HarrisonWellsRUNBarryRUN&theme=tokyonight&background=070a0e&stroke=1e293b&ring=00f5d4&fire=f59e0b&currStreakNum=00f5d4" alt="HarrisonWellsRUNBarryRUN Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=HarrisonWellsRUNBarryRUN&theme=tokyonight&background=070a0e&stroke=1e293b&ring=ff0033&fire=ff0033&currStreakNum=ff0033" alt="HarrisonWellsRUNBarryRUN Streak Stats" />
   <br /><br />
-  <img src="https://komarev.com/ghpvc/?username=HarrisonWellsRUNBarryRUN&style=flat-square&color=00f5d4&label=TERMINAL_VIEWS" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=HarrisonWellsRUNBarryRUN&style=flat-square&color=ff0033&label=TERMINAL_VIEWS" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/HarrisonWellsRUNBarryRUN?style=flat-square&logo=github&label=OPERATIVES&color=1e293b" alt="GitHub followers" />
 </div>
 
