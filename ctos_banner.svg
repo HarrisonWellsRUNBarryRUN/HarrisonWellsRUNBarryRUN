@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240" style="background: transparent;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a0e" />
+      <stop offset="50%" stop-color="#0d1219" />
+      <stop offset="100%" stop-color="#05070a" />
+    </linearGradient>
+
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#00bbf9" stop-opacity="1" />
+      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="ctosGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00f5d4" stroke-width="0.5" stroke-opacity="0.08" />
+      <circle cx="0" cy="0" r="1" fill="#00f5d4" fill-opacity="0.25" />
+    </pattern>
+
+    <!-- Filter for Cyber Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseRing {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes pulseRingRev {
+      0% { transform: rotate(360deg); }
+      100% { transform: rotate(0deg); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-240px); }
+      100% { transform: translateY(240px); }
+    }
+    @keyframes glitch {
+      0%, 88%, 100% { transform: translate(0, 0); opacity: 1; }
+      89% { transform: translate(-3px, 1px); opacity: 0.85; filter: drop-shadow(2px 0 red); }
+      91% { transform: translate(3px, -1px); opacity: 0.9; filter: drop-shadow(-2px 0 #00f5d4); }
+      93% { transform: translate(-2px, 0); opacity: 1; }
+      95% { transform: translate(2px, 1px); }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes waveBar {
+      0%, 100% { height: 6px; }
+      50% { height: 22px; }
+    }
+    @keyframes speedforcePulse {
+      0%, 100% { stroke-opacity: 0.4; }
+      50% { stroke-opacity: 0.9; filter: drop-shadow(0 0 6px #f59e0b); }
+    }
+
+    .main-box {
+      stroke: #1e293b;
+      stroke-width: 1.5;
+    }
+    .hud-title {
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace;
+      font-weight: 800;
+      font-size: 38px;
+      letter-spacing: 0.12em;
+      fill: #ffffff;
+      animation: glitch 4s infinite linear;
+    }
+    .hud-sub {
+      font-family: 'JetBrains Mono', 'Consolas', monospace;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      fill: #00f5d4;
+    }
+    .hud-mono {
+      font-family: 'JetBrains Mono', 'Consolas', monospace;
+      font-size: 11px;
+      fill: #94a3b8;
+    }
+    .hud-amber {
+      font-family: 'JetBrains Mono', 'Consolas', monospace;
+      font-weight: 600;
+      font-size: 11px;
+      fill: #f59e0b;
+    }
+    .rotating-ring {
+      transform-origin: 770px 120px;
+      animation: pulseRing 18s linear infinite;
+    }
+    .rotating-ring-rev {
+      transform-origin: 770px 120px;
+      animation: pulseRingRev 12s linear infinite;
+    }
+    .laser-scan {
+      animation: scanline 3.2s linear infinite;
+    }
+    .cursor-blink {
+      animation: blink 1s infinite;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect x="2" y="2" width="896" height="236" rx="10" fill="url(#bgGrad)" stroke="#1a2333" stroke-width="1.5" />
+  <rect x="2" y="2" width="896" height="236" rx="10" fill="url(#ctosGrid)" />
+
+  <!-- Outer Cyber Corner Accents -->
+  <!-- Top Left -->
+  <path d="M 12 36 L 12 12 L 36 12" fill="none" stroke="#00f5d4" stroke-width="2.5" />
+  <circle cx="12" cy="12" r="2.5" fill="#00f5d4" />
+  <!-- Top Right -->
+  <path d="M 888 36 L 888 12 L 864 12" fill="none" stroke="#00f5d4" stroke-width="2.5" />
+  <circle cx="888" cy="12" r="2.5" fill="#00f5d4" />
+  <!-- Bottom Left -->
+  <path d="M 12 204 L 12 228 L 36 228" fill="none" stroke="#00f5d4" stroke-width="2.5" />
+  <circle cx="12" cy="228" r="2.5" fill="#00f5d4" />
+  <!-- Bottom Right -->
+  <path d="M 888 204 L 888 228 L 864 228" fill="none" stroke="#00f5d4" stroke-width="2.5" />
+  <circle cx="888" cy="228" r="2.5" fill="#00f5d4" />
+
+  <!-- Top Status Bar -->
+  <g transform="translate(38, 28)">
+    <circle cx="6" cy="6" r="4" fill="#00f5d4" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="18" y="10" class="hud-mono" font-weight="600" fill="#00f5d4">ctOS v2.0 SYSTEM ONLINE</text>
+    <text x="210" y="10" class="hud-mono" fill="#475569">|</text>
+    <text x="225" y="10" class="hud-mono">S.T.A.R. LABS CORE PROTOCOL</text>
+    <text x="440" y="10" class="hud-mono" fill="#475569">|</text>
+    <text x="455" y="10" class="hud-amber">SECURITY CLEARANCE: LEVEL 5 [ROOT]</text>
+    <text x="730" y="10" class="hud-mono" fill="#64748b">LOC: 38.4237° N, 27.1428° E</text>
+  </g>
+
+  <!-- Horizontal Divider Line -->
+  <line x1="38" y1="46" x2="862" y2="46" stroke="#1e293b" stroke-width="1" />
+  <line x1="38" y1="46" x2="220" y2="46" stroke="#00f5d4" stroke-width="2" />
+
+  <!-- Central Narrative & Tech Readout -->
+  <g transform="translate(42, 92)">
+    <!-- Main Glitch Name -->
+    <text x="0" y="0" class="hud-title">ARDA</text>
+    <!-- Badge next to Name -->
+    <rect x="175" y="-28" width="138" height="24" rx="4" fill="#00f5d4" fill-opacity="0.12" stroke="#00f5d4" stroke-width="1" />
+    <text x="185" y="-12" class="hud-mono" fill="#00f5d4" font-weight="700">DR. WELLS PROTOCOL</text>
+
+    <!-- Subtitle Role -->
+    <text x="2" y="26" class="hud-sub">FULL STACK DEVELOPER • ASP.NET CORE • ERP ARCHITECTURES</text>
+
+    <!-- Terminal Prompt Line -->
+    <g transform="translate(0, 52)">
+      <text x="0" y="0" class="hud-mono" fill="#38bdf8">&gt; sys.exec --target="ENTERPRISE_ERP" --stack=".NET Core, Rust, Android, SQL"</text>
+      <text x="0" y="18" class="hud-mono" fill="#94a3b8">&gt; status: 0 flaws detected · high-throughput distributed pipeline [OK]</text>
+      <text x="0" y="36" class="hud-amber">&gt; "My goals are beyond ordinary understanding."</text>
+      <rect x="362" y="26" width="7" height="12" fill="#f59e0b" class="cursor-blink" />
+    </g>
+  </g>
+
+  <!-- Right Side: S.T.A.R. Labs Particle Accelerator / ctOS Radar Ring -->
+  <g transform="translate(0, 0)">
+    <!-- Outer dashed rotating ring -->
+    <circle cx="770" cy="120" r="76" fill="none" stroke="#00f5d4" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="8 6 14 6" class="rotating-ring" />
+    
+    <!-- Secondary counter-rotating amber speedforce ring -->
+    <circle cx="770" cy="120" r="60" fill="none" stroke="#f59e0b" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="16 8 4 8" class="rotating-ring-rev" />
+    
+    <!-- Inner static target ring -->
+    <circle cx="770" cy="120" r="42" fill="#0b1320" fill-opacity="0.6" stroke="#38bdf8" stroke-width="1" />
+    
+    <!-- Crosshairs -->
+    <line x1="710" y1="120" x2="830" y2="120" stroke="#00f5d4" stroke-opacity="0.25" stroke-width="1" />
+    <line x1="770" y1="60" x2="770" y2="180" stroke="#00f5d4" stroke-opacity="0.25" stroke-width="1" />
+    
+    <!-- Center Target Core -->
+    <circle cx="770" cy="120" r="6" fill="#00f5d4" filter="url(#glow)">
+      <animate attributeName="r" values="5;7;5" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Target Brackets -->
+    <path d="M 746 102 L 746 96 L 752 96" fill="none" stroke="#f59e0b" stroke-width="2" />
+    <path d="M 794 102 L 794 96 L 788 96" fill="none" stroke="#f59e0b" stroke-width="2" />
+    <path d="M 746 138 L 746 144 L 752 144" fill="none" stroke="#f59e0b" stroke-width="2" />
+    <path d="M 794 138 L 794 144 L 788 144" fill="none" stroke="#f59e0b" stroke-width="2" />
+
+    <!-- Radar Sweep Effect -->
+    <path d="M 770 120 L 826 120 A 56 56 0 0 0 770 64 Z" fill="url(#cyanGlow)" fill-opacity="0.12" class="rotating-ring" />
+
+    <!-- Mini Telemetry below radar -->
+    <text x="770" y="208" text-anchor="middle" class="hud-mono" font-size="9" fill="#00f5d4">S.T.A.R. ACCELERATOR</text>
+    <text x="770" y="220" text-anchor="middle" class="hud-mono" font-size="8" fill="#64748b">FREQUENCY: 9.84 GHz</text>
+  </g>
+
+  <!-- Bottom Frequency Visualizer Bars -->
+  <g transform="translate(42, 218)">
+    <rect x="0" y="-8" width="3" height="8" fill="#00f5d4"><animate attributeName="height" values="4;14;6;18;4" dur="1.2s" repeatCount="indefinite" /><animate attributeName="y" values="-4;-14;-6;-18;-4" dur="1.2s" repeatCount="indefinite" /></rect>
+    <rect x="6" y="-12" width="3" height="12" fill="#00f5d4"><animate attributeName="height" values="8;20;10;6;8" dur="0.9s" repeatCount="indefinite" /><animate attributeName="y" values="-8;-20;-10;-6;-8" dur="0.9s" repeatCount="indefinite" /></rect>
+    <rect x="12" y="-6" width="3" height="6" fill="#00f5d4"><animate attributeName="height" values="12;6;18;10;12" dur="1.4s" repeatCount="indefinite" /><animate attributeName="y" values="-12;-6;-18;-10;-12" dur="1.4s" repeatCount="indefinite" /></rect>
+    <rect x="18" y="-15" width="3" height="15" fill="#f59e0b"><animate attributeName="height" values="6;16;4;12;6" dur="1.1s" repeatCount="indefinite" /><animate attributeName="y" values="-6;-16;-4;-12;-6" dur="1.1s" repeatCount="indefinite" /></rect>
+    <rect x="24" y="-8" width="3" height="8" fill="#00f5d4"><animate attributeName="height" values="10;4;14;8;10" dur="0.8s" repeatCount="indefinite" /><animate attributeName="y" values="-10;-4;-14;-8;-10" dur="0.8s" repeatCount="indefinite" /></rect>
+    <rect x="30" y="-14" width="3" height="14" fill="#00f5d4"><animate attributeName="height" values="4;18;8;14;4" dur="1.3s" repeatCount="indefinite" /><animate attributeName="y" values="-4;-18;-8;-14;-4" dur="1.3s" repeatCount="indefinite" /></rect>
+    <text x="42" y="-3" class="hud-mono" font-size="9" fill="#64748b">SIGNAL_INTEGRITY: 99.98%</text>
+  </g>
+
+  <!-- Moving Laser Scanline -->
+  <line x1="2" y1="0" x2="898" y2="0" stroke="#00f5d4" stroke-opacity="0.3" stroke-width="1.5" class="laser-scan" />
+</svg>

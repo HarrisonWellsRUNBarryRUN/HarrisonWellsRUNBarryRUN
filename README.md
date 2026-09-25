@@ -26,7 +26,7 @@
   <br />
 
   <!-- Quick Action Badges -->
-  <a href="https://github.com/Aloostor/ArdaPortfoy">
+  <a href="https://ardaportfoy.onrender.com/">
     <img src="https://img.shields.io/badge/Live_Portfolio-00f5d4?style=for-the-badge&logo=googlechrome&logoColor=070a0e" alt="Live Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/arda-a-020bb5380/">
